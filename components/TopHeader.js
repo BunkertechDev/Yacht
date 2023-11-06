@@ -6,8 +6,7 @@ const TopHeader = ({ totalYachts }) => {
     <div className={styles.header}>
       <div className={styles.results}>Results: {totalYachts} yachts</div>
       <div className={styles.searchFilter}>
-        <img src="hourglass-icon.png" alt="Hourglass Icon" />
-        <span>Sort</span>
+        
       </div>
     </div>
   );
