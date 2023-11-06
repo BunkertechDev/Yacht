@@ -1,0 +1,83 @@
+
+.yacht-listing .yacht-name,
+.yacht-listing .yacht-details {
+  font-family: Arial, sans-serif; 
+  text-align: left; 
+
+}
+
+
+.yacht-listing {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 30%; /* Set the width to 30% */
+  margin: 10px;
+  display: inline-block;
+  float: left;
+}
+
+/* New styles for yacht image */
+.yacht-listing .yacht-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.yacht-listing .yacht-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.yacht-listing .yacht-price {
+  font-size: 1.25rem;
+  font-weight: 700; 
+  color: #000; 
+  text-align: left;
+  font-family: Arial
+}
+
+.pagination-button {
+  background-color: #007aff;
+  color: #fff;
+  border: 1px solid #007aff;
+  padding: 6px 12px;
+  margin: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-button.active {
+  background-color: #ccc;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.sort-dropdown {
+  position: absolute;
+  top: 10px; 
+  right: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px; 
+}
